@@ -28,10 +28,10 @@ DATA_TAB_4 = '\t\t\t\t '
 
 #................................................................
 # this depends of our amazon instance 
-connection = pymysql.connect(host='localhost',
-                             user='root',
-                             password='jela118759',
-                             db='syrus_data',
+connection = pymysql.connect(host='designdatabase.cg6tv9ndrugo.us-west-2.rds.amazonaws.com',
+                             user='admin',
+                             password='admin123456',
+                             db='designdatabase',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
 
